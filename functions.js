@@ -320,23 +320,23 @@ function updateHealthBar() {
             moreHealth = null;
         }
         else {
-            newWidth = bonusLife/100*150;
+            newWidth = bonusLife/100*maxPlayerLife;
             moreHealth.style.width = `${newWidth}px`;
         }
     }
     else {
-        newWidth = playerLife/100*150;
+        newWidth = playerLife/100*maxPlayerLife;
         playerHealth.style.width = `${newWidth}px`;
 
-        if (newWidth == 150) {
+        if (newWidth == maxPlayerLife) {
             playerHealth.style.background = "#40ff20";
             playerHealth.style.boxShadow = "0px 0px 3px 2px #40ff22"
         }
-        if (newWidth < 150*(0.75) && newWidth > 150*(0.5)) {
+        if (newWidth < maxPlayerLife*(0.75) && newWidth > maxPlayerLife*(0.5)) {
             playerHealth.style.background = "#ffcc00";
             playerHealth.style.boxShadow = "0px 0px 3px 2px #ffcc00";
         }
-        else if (newWidth < 150*(0.5)) {
+        else if (newWidth < maxPlayerLife*(0.5)) {
             playerHealth.style.background = "#ff0000";
             playerHealth.style.boxShadow = "0px 0px 3px 2px #ff0000";
         }

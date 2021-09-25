@@ -29,11 +29,11 @@ var DEBUG = false;
 var actualLevel=0
 //player stats
 
-var attackSpeed = 300;
+var attackSpeed = 500;
 var rotationSpeed = Math.PI / 100;
 
 var godMode=false
-var maxPlayerLife = 100;
+var maxPlayerLife = 150;
 var playerLife = maxPlayerLife;
 var bonusLife = 0;
 var playerSpeed = 200;
@@ -588,6 +588,7 @@ for(var idx = 0; idx < enemies.length; idx++) {
 
                 //check victory
                 if (actualLevel == 5) {
+                    godMode=true
                     endGame.classList.add("anim-game_over");
                     endGame.style.display = "block";
                 }
