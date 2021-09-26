@@ -1,5 +1,6 @@
-# final-project-planetraiders-team
-final-project-planetraiders-team created by GitHub Classroom
+# Final Project fro Interactive Graphics 2020/2021
+
+Authors: Alessio Parmeggiani, Alessio Sfregola
 
 Welcome to the Github page of our Interactive Graphics project: Planet Raiders.
 
@@ -9,6 +10,7 @@ The goal of the game is to destroy all the enemy UFOs that are invading the plan
 
 W,A,S,D to move around the planet
 E or SPACE to shoot
-drag with the mouse to look around and scrool the wheel to zoom
+Drag with the mouse to look around and scrool the wheel to zoom
 
 Link for playing the game: https://sapienzainteractivegraphicscourse.github.io/final-project-planetraiders-team/
+Report: https://github.com/SapienzaInteractiveGraphicsCourse/final-project-planetraiders-team/blob/main/report.pdf
