@@ -330,6 +330,7 @@ function updateHealthBar() {
         console.log(newWidth)
         playerHealth.style.width = `${newWidth}px`;
 
+        
         if (newWidth >= maxPlayerLife) {
             playerHealth.style.background = "#40ff20";
             playerHealth.style.boxShadow = "0px 0px 3px 2px #40ff22"
