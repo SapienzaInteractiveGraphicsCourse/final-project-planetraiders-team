@@ -183,6 +183,7 @@ buttons.forEach(button => {
                     if (event.target.id == "back") {
                         splash.remove();
                         newGame()
+                        updateHealthBar();
                         newLevel()
                     }
                 })

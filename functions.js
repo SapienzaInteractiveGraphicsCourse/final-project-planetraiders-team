@@ -327,13 +327,14 @@ function updateHealthBar() {
     }
     else {
         newWidth = playerLife/100*maxPlayerLife;
+        console.log(newWidth)
         playerHealth.style.width = `${newWidth}px`;
 
-        if (newWidth == maxPlayerLife) {
+        if (newWidth >= maxPlayerLife) {
             playerHealth.style.background = "#40ff20";
             playerHealth.style.boxShadow = "0px 0px 3px 2px #40ff22"
         }
-        if (newWidth < maxPlayerLife*(0.75) && newWidth > maxPlayerLife*(0.5)) {
+        else if (newWidth < maxPlayerLife*(0.75) && newWidth > maxPlayerLife*(0.5)) {
             playerHealth.style.background = "#ffcc00";
             playerHealth.style.boxShadow = "0px 0px 3px 2px #ffcc00";
         }
