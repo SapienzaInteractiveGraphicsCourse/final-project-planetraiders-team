@@ -1,4 +1,4 @@
-# Final Project fro Interactive Graphics 2020/2021
+# Final Project for Interactive Graphics 2020/2021
 
 Authors: Alessio Parmeggiani, Alessio Sfregola
 
