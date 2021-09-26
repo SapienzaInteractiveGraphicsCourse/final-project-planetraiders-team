@@ -89,7 +89,6 @@ var playerAsset=[];
 
 //assets needed later
 const assetsPath = [
-    "rocketTest.babylon",
     "rocket.babylon", 
     "enemy.babylon",
     "enemyFast.babylon",
@@ -145,7 +144,7 @@ buttons.forEach(button => {
         console.log(chosen_upgrade);
         switch (chosen_upgrade) {
             case "Player speed up":
-                playerSpeed /= 2;
+                playerSpeed /= 1.5;
                 icon.src = "icons/Speed up.png";    
                 break;
             case "Bullets +1":
@@ -157,8 +156,8 @@ buttons.forEach(button => {
                 icon.src = "icons/Arc bullets.png";
                 break;
             case "Bullets speed up":
-                bulletSpeed*=2;
-                attackSpeed-=50;
+                bulletSpeed*=1.5;
+                attackSpeed-=100;
                 icon.src = "icons/Bullets speed up.png";
                 break;
             case "Bullets range up":

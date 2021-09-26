@@ -258,6 +258,7 @@ function newGame(){
     bulletRange=1
 
     playerSpeed=200
+    attackSpeed=500
     //reset health
     playerLife=maxPlayerLife
 
@@ -307,7 +308,7 @@ function increaseDifficulty(newEnemies) {
     }
     console.log("enemy probabilities: fast=",probFastEnemy,"tank=",probTankEnemy)
     probFastEnemy +=  0.1
-    probTankEnemy = probFastEnemy/3
+    probTankEnemy = probFastEnemy/2
     
 }
 
