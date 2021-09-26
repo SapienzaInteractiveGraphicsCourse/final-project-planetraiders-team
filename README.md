@@ -10,7 +10,7 @@ The goal of the game is to destroy all the enemy UFOs that are invading the plan
 
 ## How to play
 
-1. W,A,S,D to move around the planet
+1. W,A,S,D to move 
 2. E or SPACE to shoot
 3. Drag with the mouse to look around and scrool the mouse wheel to zoom
 
